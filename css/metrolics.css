@@ -11,6 +11,30 @@ html, body {
 /* Enter your CSS here*/
 
 
+
+/* OUR LATEST PROJECTS */
+.our_latest_projects_sections {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sound_system_images{
+    display: grid;
+    grid-template-columns: repeat(3,21vw);  /* 3 columns */
+    grid-template-rows: repeat(2); /* 3 rows  */
+    grid-gap:15px 15px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+.sound_system_grid > img {
+    width: 100%
+}
+
+
 /* THINGSABOVE */
 .thingsofabove_section, .partnered_icons_section {
     width: 100%;
@@ -35,8 +59,10 @@ html, body {
     width: 65vw;
 }
 
+
+/* PARTNER SECTION */
 .grouped_partnered_icons img{
-    width: 105px;
+    width: 10vw
 
 }
 .grouped_partnered_icons{
@@ -49,7 +75,7 @@ html, body {
 }
 
 .netbeans_icon, .krita_icon, .scrirra_icon, .blender_icon, .inkscape_icon {
-    height: 70px;
+    height: 60px;
     background-color: rgb(241, 241, 241);
     align-items: center;
     display: flex;
