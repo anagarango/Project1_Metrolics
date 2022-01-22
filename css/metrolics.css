@@ -1,0 +1,158 @@
+html, body {
+    margin: 0 auto;
+    font-size: 15px;
+}
+.main {
+    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Enter your CSS here*/
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(39, 39, 39);
+    color: rgb(238, 238, 238);
+}
+.peewee{
+    width: 65vw;
+    display: flex;
+    margin-top: 20px;
+}
+.peewee_img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://variety.com/wp-content/uploads/2013/06/pee-wees-big-holiday.jpg?w=1000");
+    background-size: 265px;
+}
+.peewee_text {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 40px;
+}
+.frequetly_visited {
+    display: flex;
+    width: 65vw;
+    margin-top: -35px;
+}
+.about_block, .flickr_block, .tweets_block, .newsletter_block {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 60px;
+}
+.flickr_block, .tweets_block, .newsletter_block {
+    margin-left: 10px;
+}
+
+hr {
+    background-color: rgb(136, 136, 136);
+    width: 65vw;
+}
+.green.break_block {
+    background-color: rgb(27, 203, 27);
+}
+.yellow.break_block {
+    background-color: rgb(236, 227, 53);
+}
+.red.break_block {
+    background-color: rgb(236, 53, 53);
+}
+.blue.break_block {
+    background-color: rgb(42, 68, 243);
+}
+.break_block {
+    border: none;
+    height: 2px;
+    width: 100%;
+    margin: -10px 0 10px 0;
+}
+
+.color_blocks{
+    height: 30px;
+}
+
+.flickr_img{
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.flickr_img > img {
+    width: 5vw;
+}
+.first_tweet, .second_tweet {
+    height: fit-content;
+}
+
+.recent_tweet_icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://i.pinimg.com/originals/2f/c5/1c/2fc51c1d470c91ffb321605f29e862f1.jpg");
+    background-size: 190%;
+    margin-right: 20px;
+}
+
+.tweet_text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.first_tweet, .second_tweet{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+input {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    margin-left: -39px;
+}
+
+.minions_twitter_name {
+    color: rgb(41, 159, 255);
+    font-weight: 700;
+}
+
+.about_icons{
+    display: flex;
+    width: 0%;
+    height: 50px;
+}
+.about_icons > div{
+    width:20%;
+    height: 50px;
+}
+
+.about_google_icon{
+    background-color: rgb(231, 105, 33);
+    background-image: url("https://www.pngkit.com/png/full/524-5248733_resources-contact-white-google-plus-icon-png.png");
+    background-size: 60%;
+}
+
+.about_twitter_icon {
+    background-color: rgb(30, 169, 215);
+    background-image: url("https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_1080.png");
+    background-size: 110%;
+}
+
+.about_facebook_icon{
+    background-color: rgb(0, 100, 239);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png");
+    background-size: 75%;
+}
+
+.position_for_img {
+    background-position: center;
+    background-repeat: no-repeat;
+}
