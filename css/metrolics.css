@@ -11,6 +11,38 @@ html, body {
 /* Enter your CSS here*/
 
 
+.grouped_partnered_icons img{
+    width: 105px;
+
+}
+.grouped_partnered_icons{
+    width: 65vw;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.partnered_icons_section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.netbeans_icon, .krita_icon, .scrirra_icon, .blender_icon, .inkscape_icon {
+    height: 70px;
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.netbeans_icon:hover, .krita_icon:hover, .scrirra_icon:hover, .blender_icon:hover, .inkscape_icon:hover {
+    background-color: rgb(212, 212, 212);
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -23,6 +55,10 @@ html, body {
     width: 65vw;
     display: flex;
     margin-top: 20px;
+}
+.italics_bio {
+    font-style: italic;
+    margin-top: -5px;
 }
 .peewee_img {
     border-radius: 50%;
@@ -52,7 +88,7 @@ html, body {
     margin-left: 10px;
 }
 
-hr {
+.peewee_line_break {
     background-color: rgb(136, 136, 136);
     width: 65vw;
 }
