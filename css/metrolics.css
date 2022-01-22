@@ -11,6 +11,30 @@ html, body {
 /* Enter your CSS here*/
 
 
+/* THINGSABOVE */
+.thingsofabove_section, .partnered_icons_section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.thingsofabove_section {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.subheadings {
+    color: rgb(131, 131, 131);
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.accordion_tabs_img > img {
+    width: 65vw;
+}
+
 .grouped_partnered_icons img{
     width: 105px;
 
@@ -22,13 +46,6 @@ html, body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
-}
-
-.partnered_icons_section {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
 }
 
 .netbeans_icon, .krita_icon, .scrirra_icon, .blender_icon, .inkscape_icon {
@@ -43,6 +60,8 @@ html, body {
     background-color: rgb(212, 212, 212);
 }
 
+
+/* FOOTER */
 .footer {
     display: flex;
     flex-direction: column;
@@ -92,19 +111,26 @@ html, body {
     background-color: rgb(136, 136, 136);
     width: 65vw;
 }
-.green.break_block {
+.green.footer_line_break, .green_color_block{
     background-color: rgb(27, 203, 27);
 }
-.yellow.break_block {
-    background-color: rgb(236, 227, 53);
+.yellow.footer_line_break, .yellow_color_block{
+    background-color: rgb(236, 202, 53);
 }
-.red.break_block {
+.red.footer_line_break, .red_color_block {
     background-color: rgb(236, 53, 53);
 }
-.blue.break_block {
-    background-color: rgb(42, 68, 243);
+.blue.footer_line_break, .blue_color_block {
+    background-color: rgb(36, 119, 228);
 }
-.break_block {
+.darkblue_color_block {
+    background-color: rgb(16, 87, 180);
+}
+.green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
+    width: 7%;
+    height: 20px;
+}
+.footer_line_break {
     border: none;
     height: 2px;
     width: 100%;
@@ -113,6 +139,11 @@ html, body {
 
 .color_blocks{
     height: 30px;
+    width: 65vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 30px;
 }
 
 .flickr_img{
@@ -162,8 +193,8 @@ input {
 
 .about_icons{
     display: flex;
-    width: 0%;
-    height: 50px;
+    width: 100%;
+    height: 40%;
 }
 .about_icons > div{
     width:20%;
