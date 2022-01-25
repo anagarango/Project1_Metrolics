@@ -2,8 +2,8 @@ html, body {
     margin: 0 auto;
     font-size: 15px;
 }
-.main {
-    width: 100vw;
+main {
+    /* width: 100vw; */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -26,8 +26,8 @@ html, body {
 .sound_system_images{
     display: grid;
     grid-template-columns: repeat(3,21vw);  /* 3 columns */
-    grid-template-rows: repeat(2); /* 3 rows  */
-    grid-gap:15px 15px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+    grid-template-rows: repeat(2); /* 2 rows  */
+    grid-gap:15px 15px; /* 15 pixels of space added between rows and 15 pixels added between columns  */
 }
 
 .sound_system_grid > img {
