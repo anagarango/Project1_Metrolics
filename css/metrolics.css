@@ -1,0 +1,251 @@
+html, body {
+    margin: 0 auto;
+    font-size: 15px;
+}
+.main {
+    width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Enter your CSS here*/
+
+
+
+/* OUR LATEST PROJECTS */
+.our_latest_projects_sections {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sound_system_images{
+    display: grid;
+    grid-template-columns: repeat(3,21vw);  /* 3 columns */
+    grid-template-rows: repeat(2); /* 3 rows  */
+    grid-gap:15px 15px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+}
+
+.sound_system_grid > img {
+    width: 100%
+}
+
+
+/* THINGSABOVE */
+.thingsofabove_section, .partnered_icons_section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.thingsofabove_section {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.subheadings {
+    color: rgb(131, 131, 131);
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.accordion_tabs_img > img {
+    width: 65vw;
+}
+
+
+/* PARTNER SECTION */
+.grouped_partnered_icons img{
+    width: 10vw
+
+}
+.grouped_partnered_icons{
+    width: 65vw;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.netbeans_icon, .krita_icon, .scrirra_icon, .blender_icon, .inkscape_icon {
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.netbeans_icon:hover, .krita_icon:hover, .scrirra_icon:hover, .blender_icon:hover, .inkscape_icon:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(39, 39, 39);
+    color: rgb(238, 238, 238);
+}
+.peewee{
+    width: 65vw;
+    display: flex;
+    margin-top: 20px;
+}
+.italics_bio {
+    font-style: italic;
+    margin-top: -5px;
+}
+.peewee_img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://variety.com/wp-content/uploads/2013/06/pee-wees-big-holiday.jpg?w=1000");
+    background-size: 265px;
+}
+.peewee_text {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 40px;
+}
+.frequetly_visited {
+    display: flex;
+    width: 65vw;
+    margin-top: -35px;
+}
+.about_block, .flickr_block, .tweets_block, .newsletter_block {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 60px;
+}
+.flickr_block, .tweets_block, .newsletter_block {
+    margin-left: 10px;
+}
+
+.peewee_line_break {
+    background-color: rgb(136, 136, 136);
+    width: 65vw;
+}
+.green.footer_line_break, .green_color_block{
+    background-color: rgb(27, 203, 27);
+}
+.yellow.footer_line_break, .yellow_color_block{
+    background-color: rgb(236, 202, 53);
+}
+.red.footer_line_break, .red_color_block {
+    background-color: rgb(236, 53, 53);
+}
+.blue.footer_line_break, .blue_color_block {
+    background-color: rgb(36, 119, 228);
+}
+.darkblue_color_block {
+    background-color: rgb(16, 87, 180);
+}
+.green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
+    width: 7%;
+    height: 20px;
+}
+.footer_line_break {
+    border: none;
+    height: 2px;
+    width: 100%;
+    margin: -10px 0 10px 0;
+}
+
+.color_blocks{
+    height: 30px;
+    width: 65vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.flickr_img{
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.flickr_img > img {
+    width: 5vw;
+}
+.first_tweet, .second_tweet {
+    height: fit-content;
+}
+
+.recent_tweet_icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://i.pinimg.com/originals/2f/c5/1c/2fc51c1d470c91ffb321605f29e862f1.jpg");
+    background-size: 190%;
+    margin-right: 20px;
+}
+
+.tweet_text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.first_tweet, .second_tweet{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+input {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+    margin-left: -39px;
+}
+
+.minions_twitter_name {
+    color: rgb(41, 159, 255);
+    font-weight: 700;
+}
+
+.about_icons{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+.about_icons > div{
+    width:20%;
+    height: 50px;
+}
+
+.about_google_icon{
+    background-color: rgb(231, 105, 33);
+    background-image: url("https://www.pngkit.com/png/full/524-5248733_resources-contact-white-google-plus-icon-png.png");
+    background-size: 60%;
+}
+
+.about_twitter_icon {
+    background-color: rgb(30, 169, 215);
+    background-image: url("https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_1080.png");
+    background-size: 110%;
+}
+
+.about_facebook_icon{
+    background-color: rgb(0, 100, 239);
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png");
+    background-size: 75%;
+}
+
+.position_for_img {
+    background-position: center;
+    background-repeat: no-repeat;
+}
