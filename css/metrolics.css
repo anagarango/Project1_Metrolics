@@ -10,7 +10,51 @@ main {
 
 /* Enter your CSS here*/
 
+/* top navbar*/
+.topnav {
+    display:flex;
+    flex:center;
+    padding:0px;
+    margin: 0px;
+    height: 111px; 
+    justify-content: center;
+}
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* minion banner*/
 
+  /*.minionbanner {
+    width:65vw;
+    justify-content: center;
+    flex: center;
+    display:flex;
+   } */
+  
+    /* .minion_banner  {
+      display:flex;
+      flex: center;
+      padding:0px;
+      margin: 0px;
+      align-items: center;
+      width: 65vw;
+      justify-content: center;
+    } */
+
+ /* first text*/
+ /* .firsttext
+
+ .bluetext */
+
+ /* subtext*/
+ /* .subtext
+
+ .greytext */
+
+ /* What's Up latetly */
 
 /* OUR LATEST PROJECTS */
 .our_latest_projects_sections {
