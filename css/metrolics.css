@@ -74,10 +74,9 @@ main {
     grid-gap:15px 15px; /* 15 pixels of space added between rows and 15 pixels added between columns  */
 }
 
-.sound_system_grid > img {
-    width: 100%
+.sound_system_grid > img{
+    width: 100%;
 }
-
 
 /* THINGSABOVE */
 .thingsofabove_section, .partnered_icons_section {
@@ -162,6 +161,9 @@ main {
     width: 50vw;
     margin-left: 40px;
 }
+.footer .about_icons_for_mobile, .accordion_tabs1_img, .accordion_tabs2_img {
+    display: none;
+}
 .frequetly_visited {
     display: flex;
     width: 65vw;
@@ -218,7 +220,6 @@ main {
 
 .flickr_img{
     margin-top: 20px;
-    /* text-align: center; */
 }
 .flickr_img > img {
     width: 5vw;
@@ -263,9 +264,8 @@ input {
 
 .about_icons{
     display: flex;
-    width: 100%;
-    height: 40%;
 }
+
 .about_icons > div{
     width:20%;
     height: 50px;
@@ -276,20 +276,104 @@ input {
     background-image: url("https://www.pngkit.com/png/full/524-5248733_resources-contact-white-google-plus-icon-png.png");
     background-size: 60%;
 }
-
 .about_twitter_icon {
     background-color: rgb(30, 169, 215);
     background-image: url("https://cliply.co/wp-content/uploads/2019/07/371907030_TWITTER_ICON_1080.png");
     background-size: 110%;
 }
-
 .about_facebook_icon{
     background-color: rgb(0, 100, 239);
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png");
     background-size: 75%;
 }
-
 .position_for_img {
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width: 64em) {
+    /* ENTER CSS FOR TABLET SIZE HERE*/
+
+    .sound_system_images{
+        display: grid;
+        grid-template-columns: repeat(2,32vw);  /* 3 columns */
+        grid-template-rows: repeat(3); /* 2 rows  */
+        grid-gap:15px 15px; /* 15 pixels of space added between rows and 15 pixels added between columns  */
+        margin: 40px 0px 30px 0px
+    }
+    .our_latest_projects_line_break{
+        margin-bottom: 35px;
+    }
+    .accordion_tabs_img {
+        display: none;
+    }
+    .accordion_tabs1_img, .accordion_tabs2_img {
+        display: flex;
+        margin: 30px 0px 20px 0px;
+    }
+    .accordion_tabs1_img > img, .accordion_tabs2_img > img {
+        width: 66vw;
+    }
+    .frequetly_visited{
+        flex-wrap: wrap;
+    }
+    .about_block, .flickr_block{
+        width: 48%;
+    }
+    .tweets_block, .newsletter_block {
+        width: 47%;
+        margin-top: 10px;
+    }
+    .flickr_img{
+        display: grid;
+        grid-template-columns: repeat(3, 34%);  /* 3 columns */
+        grid-gap:7px 0px; /* 15 pixels of space added between rows and 15 pixels added between columns  */
+    }
+    .flickr_img > img{
+        width: 90%;
+    }
+    .green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
+        width: 13%;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    /* ENTER CSS FOR MOBILE HERE */
+
+    .sound_system_images{
+        display: grid;
+        grid-template-columns: repeat(1,63vw);  /* 3 columns */
+        grid-template-rows: repeat(6); /* 2 rows  */
+        grid-gap:10px; /* 15 pixels of space added between rows and 15 pixels added between columns  */
+        margin: 20px 0px 20px 0px
+    }
+    .about_block, .flickr_block, .newsletter_block, .partnered_icons_section, .thingsofabove_section {
+        display: none;
+    }
+    .footer .about_icons{
+        width: 65vw;
+        justify-content: center;
+    }
+    .footer .about_icons > div{
+        height: 80px;
+    }
+    .tweet_text{
+        width: 100%;
+    }
+    .footer .about_icons_for_mobile{
+        display: flex;
+        margin: 30px 0px 60px 0px;
+    }
+    .tweets_block{
+        width: 100%;
+    }
+    .color_blocks{
+        margin-top: 75px;
+    }
+    .green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
+        width: 25%;
+        height: 20px;
+    }
 }
