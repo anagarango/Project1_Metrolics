@@ -1,9 +1,6 @@
 html, body {
     margin: 0 auto;
     font-size: 15px;
-}
-main {
-    /* width: 100vw; */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -58,12 +55,9 @@ main {
 
 /* OUR LATEST PROJECTS */
 .our_latest_projects_sections {
-    width: 100%;
-    height: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -80,8 +74,6 @@ main {
 
 /* THINGSABOVE */
 .thingsofabove_section, .partnered_icons_section {
-    width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: center;
 }
@@ -94,7 +86,6 @@ main {
 
 .subheadings {
     color: rgb(131, 131, 131);
-    font-size: 14px;
     margin-top: -10px;
 }
 
@@ -113,7 +104,6 @@ main {
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 60px;
 }
 
@@ -135,12 +125,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: fit-content;
     background-color: rgb(39, 39, 39);
     color: rgb(238, 238, 238);
 }
 .peewee{
-    width: 65vw;
     display: flex;
     margin-top: 20px;
 }
@@ -156,10 +144,8 @@ main {
     background-size: 265px;
 }
 .peewee_text {
-    display: flex;
-    flex-direction: column;
     width: 50vw;
-    margin-left: 40px;
+    margin-left: 2%;
 }
 .footer .about_icons_for_mobile, .accordion_tabs1_img, .accordion_tabs2_img {
     display: none;
@@ -183,24 +169,20 @@ main {
     background-color: rgb(136, 136, 136);
     width: 65vw;
 }
-.green.footer_line_break, .green_color_block{
-    background-color: rgb(27, 203, 27);
+.frequetly_visited h4 {
+    border-bottom: solid 2px;
 }
-.yellow.footer_line_break, .yellow_color_block{
-    background-color: rgb(236, 202, 53);
+h4.green_border{
+    border-color: rgb(27, 203, 27);
 }
-.red.footer_line_break, .red_color_block {
-    background-color: rgb(236, 53, 53);
+h4.yellow_border{
+    border-color: rgb(236, 202, 53);
 }
-.blue.footer_line_break, .blue_color_block {
-    background-color: rgb(36, 119, 228);
+h4.red_border{
+    border-color: rgb(236, 53, 53);
 }
-.darkblue_color_block {
-    background-color: rgb(16, 87, 180);
-}
-.green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
-    width: 7%;
-    height: 20px;
+h4.blue_border{
+    border-color: rgb(36, 119, 228);
 }
 .footer_line_break {
     border: none;
@@ -210,12 +192,14 @@ main {
 }
 
 .color_blocks{
-    height: 30px;
+    height: 25px;
     width: 65vw;
     display: flex;
-    align-items: flex-end;
     justify-content: flex-end;
-    margin-top: 30px;
+    margin-top: 70px;
+}
+.color_blocks > img{
+    width: 60%;
 }
 
 .flickr_img{
@@ -334,8 +318,8 @@ input {
     .flickr_img > img{
         width: 90%;
     }
-    .green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
-        width: 13%;
+    .color_blocks > img{
+        width: 60%;
     }
 }
 
@@ -369,11 +353,8 @@ input {
     .tweets_block{
         width: 100%;
     }
-    .color_blocks{
-        margin-top: 75px;
+    .color_blocks > img{
+        width: 100%;
     }
-    .green_color_block, .yellow_color_block, .red_color_block, .blue_color_block, .darkblue_color_block{
-        width: 25%;
-        height: 20px;
-    }
+
 }
