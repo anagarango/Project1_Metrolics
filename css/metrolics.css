@@ -4,54 +4,150 @@ html, body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+.top_navbar img {
+    width: 55px;
+    height: 55px;
+}
 
-/* Enter your CSS here*/
+.four_section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+} 
 
-/* top navbar*/
-.topnav {
+.four_section div {
+   align-content: center;
+
+}
+
+.four_section img {
+   width: 100px;
+   height: 100px;
+}
+
+.web_solutions, .photography, .web_dev, .web_des {
+    color: rgb(131, 131, 131);
+    width:80%;
+    padding:20px;
+    text-align: center;
+}
+
+.top_navbar {
     display:flex;
-    flex:center;
-    padding:0px;
-    margin: 0px;
-    height: 111px; 
     justify-content: center;
 }
+.top_navbar > .navbar_logo_icons{
+    display: flex;
+    width: 65vw;
+    flex-direction: row;
+}  
+     
+.top_navbar .home_house {
+    background-color: #25c389;
+}
+
+.top_navbar .pages {
+    background-color: #ffb901;
+}
+
+.top_navbar .blog {
+    background-color: #de6262;
+}
+
+.top_navbar .profile {
+    background-color: #1691bd;
+}
+
+.top_navbar .home_mail {
+    background-color: #166ba2;
+}
+
+.top_navbar div{
+    width: 13%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.top_navbar .metrolics{
+    width: 33%;
+}
+.metrolics > img{
+    width: 100%;
+}
+
   
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.minion_banner {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+} 
+
+.minion_banner > img {
+    width:65vw;
+}
+
+
+
+ .first_text, .what_up, .subtext{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ .first_text{
+    text-align: center;
+ }
+    .grey_text, .grey_text_2{
+     color: rgb(131, 131, 131);
+     font-size: 14px;
+     margin-top: -10px;
+    }
+
+ .blue_text{
+      color: #1eafde;
+ }
+
+ .four_section .things_we_do_boxes{
+     display: flex;
+     width: 65vw;
+ }
+
+  .lightbulb, .picture, .bolts, .pencil {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      align-items: center;
+      width: 25%;
+      height: fit-content;
   }
   
-  /* minion banner*/
 
-  /*.minionbanner {
-    width:65vw;
-    justify-content: center;
-    flex: center;
-    display:flex;
-   } */
-  
-    /* .minion_banner  {
-      display:flex;
-      flex: center;
-      padding:0px;
-      margin: 0px;
-      align-items: center;
-      width: 65vw;
-      justify-content: center;
-    } */
+  .four_sections {
+        display: flex;
+        justify-content: center;
+        /* margin-left: 200px; */
+   }
 
- /* first text*/
- /* .firsttext
 
- .bluetext */
+ .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 21vw); 
+        grid-template-rows: repeat(2); 
+        grid-gap:15px;
+        margin-bottom: 40px;
+    
+    }
 
- /* subtext*/
- /* .subtext
-
- .greytext */
-
- /* What's Up latetly */
+    .grid > img {
+       width: 100%;
+   }
 
 /* OUR LATEST PROJECTS */
 .our_latest_projects_sections {
