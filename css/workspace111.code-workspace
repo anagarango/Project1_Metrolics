@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\r"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project1_Metrolics"
+	}
+}
